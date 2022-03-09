@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  color: #000;
+}
+
+img {
+  border: 5px solid rgb(163, 180, 171);
+}
+
+a {
+  color: #000;
+}
+
+a:not(.nav-link) {
+  text-decoration: none;
+}
+a {
+  color: rgb(163, 180, 171);
+}
+a:hover {
+  color: rgb(96, 105, 100);
+}
+
+.back-to-top-anchor {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  background-color: #fff;
+}
+
+.back-to-top-anchor-link svg {
+  width: 40px;
+}
+
+/* HEADER */
+
+.header {
+  padding: 2em;
+  background-color: rgba(180, 202, 172, 0.582);
+}
+
+.h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.top-description {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.top-description p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+/* NAV */
+.nav-list {
+  list-style: none;
+}
+
+.nav-container {
+  position: sticky;
+  background-color: rgb(248, 248, 248);
+  top: 0;
+  z-index: 1;
+}
+
+/* NAV-BURGER */
+@media screen and (max-width: 767px) {
+  .nav-container {
+    height: 52px;
+  }
+
+  .burger-menu {
+    position: absolute;
+    cursor: pointer;
+    right: 20px;
+    top: 15px;
+  }
+
+  .line {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin-bottom: 7px;
+    background-color: #000;
+  }
+
+  .nav-list.opened {
+    position: fixed;
+    background-color: rgb(248, 248, 248);
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+
+    flex-direction: column;
+    transition: all 0.1s ease-out;
+  }
+
+  .nav-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .burger-menu-close {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    top: 30px;
+    right: 20px;
+    z-index: 2;
+  }
+
+  .burger-menu-close .line-close {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    left: 0;
+    background-color: #000;
+  }
+
+  .burger-menu-close .line-close:first-of-type {
+    transform: rotate(45deg);
+  }
+
+  .burger-menu-close .line-close:last-of-type {
+    transform: rotate(-45deg);
+  }
+}
+
+/* SECTION */
+.content-section + .content-section {
+  margin-top: 50px;
+}
+
+/* WELCOME */
+
+.welcome-img {
+  width: 200px;
+  height: 200px;
+}
+
+/* ARTICLE */
+.article + .article {
+  margin-top: 30px;
+}
+
+.article-title {
+  text-transform: uppercase;
+}
+
+.article-title span {
+  border-bottom: 2px solid rgba(180, 202, 172, 0.582);
+}
+
+.article-title,
+.h3 {
+  margin-bottom: 30px;
+}
+
+.article-text {
+  text-align: justify;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.content-img {
+  width: 50%;
+}
+
+.nav-app-img {
+  width: 5em;
+}
+
+.h3 {
+  text-transform: uppercase;
+}
+
+/* SKILLS-CONTENT */
+
+.skills-list-title {
+  margin-bottom: 10px;
+}
+
+.skills-content,
+.in-addition-content,
+.contacts-content {
+  line-height: 1.7rem;
+  margin-bottom: 20px;
+}
+
+.skills-list-title {
+  font-size: 1.75rem;
+  text-transform: uppercase;
+}
+
+.skills-item {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.skills-item::marker {
+  font-size: 10px;
+}
+
+.nav-app-img,
+.carousel-item img {
+  border: none;
+}
+
+/* CAROUSEL */
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: static;
+}
+
+.carousel-item {
+  margin: 0;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background: none;
+}
+
+.carousel-control-next-icon:after {
+  content: ">";
+  font-size: 55px;
+  color: #000;
+}
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 55px;
+  color: #000;
+}
+
+/* IN ADDITION */
+
+.exhibition-author {
+  font-size: 1rem;
+}
+
+/* CONTANTS */
+
+.email-link:hover,
+.vk-link:hover,
+.inst-link:hover,
+.telegram-link:hover {
+  fill: rgb(163, 180, 171);
+}
+.email-link,
+.vk-link,
+.inst-link,
+.telegram-link {
+  width: 40px;
+  margin: 0;
+  fill: rgb(96, 105, 100);
+}
+
+.contacts-content {
+  margin-bottom: 17px;
+}
+.contacts-content a {
+  text-decoration: none;
+}
+.email-link svg,
+.vk-link svg,
+.inst-link svg,
+.telegram-link svg {
+  width: 40px;
+  height: 40px;
+}
+
+/* FOOTER */
+.footer {
+  position: relative;
+  background-color: #d0e1d0;
+}
+
+.footer svg {
+  width: 40px;
+}
+
+.footer a {
+  fill: rgb(96, 105, 100);
+}
+
+.footer a:hover {
+  fill: rgb(163, 180, 171);
+}
+
+.footer .container-xl {
+  height: 100px;
+}
+
+.licence {
+  font-size: medium;
+  position: absolute;
+  left: 100px;
+  top: 10px;
+}
