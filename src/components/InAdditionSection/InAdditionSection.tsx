@@ -24,11 +24,11 @@ const InAdditionSection = () => {
         <section className="content-section">
             <div className="container">
                 <article className="article">
-                    <h2 id="in_addition" className="article-title"><span>В дополнение</span></h2>
+                    <h2 id="in_addition" className="article-title"><span>In addition</span></h2>
                     <div className="in-addition-content">
                         <div className="d-flex flex-column align-items-center justify-content-center mb-3">
                             <h3 className="about-exhibition mb-2">Videomaker</h3>
-                            <p className="article-text"><a href="https://youtu.be/ILypffY_IFA">Съёмка и монтаж mood видео</a></p>
+                            <p className="article-text"><a href="https://youtu.be/ILypffY_IFA">Film and edit mood video</a></p>
                         </div>
                         <div className="row">
                             <div className="col-12 col-md-6 in-addition-content">
@@ -45,7 +45,7 @@ const InAdditionSection = () => {
                     </div>
                     <div className="in-addition-content">
                         <div className="d-flex flex-column align-items-center justify-content-center mb-3">
-                            <p className="article-text"><a href="https://youtu.be/hCmlxREurOI">Проект Abba Parody</a>
+                            <p className="article-text"><a href="https://youtu.be/hCmlxREurOI">Abba Parody project</a>
                             </p>
                         </div>
                         <div className="row">
@@ -62,7 +62,7 @@ const InAdditionSection = () => {
                         </div>
                     </div>
                     <div className="in-addition-content d-flex flex-column align-items-center justify-content-center">
-                        <h3 className="about-exhibition mb-3">Оператор для бюджетного фильма "История трёх сестёр"</h3>
+                        <h3 className="about-exhibition mb-3">Cameraman of the "The story of three sisters" movie</h3>
                         <div className="row">
                             <div className="col-12 col-md-6">
                                 <img src={cameraManFirstImg} className="w-100" alt=""/>
@@ -73,8 +73,8 @@ const InAdditionSection = () => {
                         </div>
                     </div>
                     <div className="in-addition-content d-flex flex-column align-items-center justify-content-center">
-                        <h3 className="about-exhibition mb-2">Модель для фотовыставки "Супердискотека 2020"</h3>
-                        <p className="exhibition-author mb-2">(автор и фотограф - <a href="https://www.instagram.com/kirill_causelove/">Кирилл</a>)</p>
+                        <h3 className="about-exhibition mb-2">Model for the photo exhibition called "Super disco 2020"</h3>
+                        <p className="exhibition-author mb-2">(photograph and author is <a href="https://www.instagram.com/kirill_causelove/">Kirill</a>)</p>
                         <div className="row superdisco-container">
                             <div className="col-12 col-md-4 in-addition-content d-flex justify-content-center">
                                 <img src={modelFirstImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
@@ -96,7 +96,7 @@ const InAdditionSection = () => {
                         </div>
                     </div>
                     <div className="in-addition-content text-center">
-                        <h3 className="mb-3">Ассистент стилиста GQ на видео съёмках для Tik Tok</h3>
+                        <h3 className="mb-3">GQ stylist assistant on the set of Tik Tok video</h3>
                         <div className="row">
                             <div className="col-12 col-md-4 in-addition-content d-flex justify-content-center">
                                 <img src={gqFirstImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>

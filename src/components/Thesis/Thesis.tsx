@@ -21,7 +21,7 @@ const Thesis = () => {
                         </div>
 
                         <div className="col-12">
-                            <p className="article-text">Разработка <b>навигационного AR-приложения</b> по Московскому Политехническому Университету. Приложение не требует использования мобильного интернета, а также GPS-навигации - работа приложения осуществляется с помощью технологии дополненной реальности. </p>
+                            <p className="article-text">Development of <b>navigation AR-app</b> for the Moscow Polytechnic University. The app is not required the use of mobile Internet and GPS - it's operated using AR technology.</p>
                         </div>
                     </div>
                 </div>

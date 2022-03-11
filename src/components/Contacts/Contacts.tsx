@@ -6,7 +6,7 @@ const Contacts = () => {
         <section className="content-section contacts mb-lg-5">
             <div className="container">
                 <article className="article">
-                    <h2 id="contacts" className="article-title"><span>контакты</span></h2>
+                    <h2 id="contacts" className="article-title"><span>Contacts</span></h2>
                     <div className="row">
                         <div className="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end">
                             <img className="w-50" src={img} alt=""/>

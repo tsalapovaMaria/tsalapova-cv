@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f42aec31-e119-4b45-9677-6b6ea44a326c" name="Changes" comment="Edit styles">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="f42aec31-e119-4b45-9677-6b6ea44a326c" name="Changes" comment="Ignore .idea folder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Education/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Education/Education.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EducationSection/EducationSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EducationSection/EducationSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/InAdditionSection/InAdditionSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InAdditionSection/InAdditionSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav/Nav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectsSection/ProjectsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectsSection/ProjectsSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SkillsSection/SkillsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SkillsSection/SkillsSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Thesis/Thesis.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Thesis/Thesis.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/University/University.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/University/University.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Welcome/Welcome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Welcome/Welcome.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +48,7 @@
       <updated>1646856910328</updated>
       <workItem from="1646856914691" duration="86000" />
       <workItem from="1647017559222" duration="4311000" />
-      <workItem from="1647027209082" duration="1730000" />
+      <workItem from="1647027209082" duration="5602000" />
     </task>
     <task id="LOCAL-00001" summary="Require all images">
       <created>1647019554585</created>
@@ -65,7 +57,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647019554585</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Edit styles">
+      <created>1647029438885</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647029438885</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ignore .idea folder">
+      <created>1647029538403</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647029538403</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +91,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Require all images" />
-    <option name="LAST_COMMIT_MESSAGE" value="Require all images" />
+    <MESSAGE value="Edit styles" />
+    <MESSAGE value="Ignore .idea folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ignore .idea folder" />
   </component>
 </project>
