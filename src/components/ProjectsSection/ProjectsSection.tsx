@@ -1,5 +1,12 @@
 import React from 'react';
 
+const firstImg = require('./../../images/centrchpu/index-small.png');
+const secImg = require('./../../images/centrchpu/katalog-small.png');
+const thirdImg = require('./../../images/centrchpu/services-small.png');
+const forthImg = require('./../../images/centrchpu/materials-small.png');
+const fifthImg = require('./../../images/centrchpu/articles-small.png');
+const sixthImg = require('./../../images/centrchpu/contacts-small.png');
+
 const ProjectsSection = () => {
     return (
         <section className="content-section">
@@ -15,8 +22,8 @@ const ProjectsSection = () => {
                                     </div>
                                     <div className="col-xl-12 col-md-6 col-12 mx-xl-auto px-xl-5 px-md-3 px-5">
                                         <ul className="skills-list text-left">
-                                            <li className="skills-item"><span>Разработка сайта <a href="http://centrchpu.ru/">Центр ЧПУ</a></span></li>
-                                            <li className="skills-item"><span>Создание своего <a href="http://tsalapova.ru/">сайта-портфолио</a> :)</span></li>
+                                            <li className="skills-item"><span>Site development <a href="http://centrchpu.ru/">CNC center</a> (it's currently unavailable)</span></li>
+                                            <li className="skills-item"><span><a href="http://tsalapova.ru/">CV-site</a> creation :)</span></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -26,35 +33,35 @@ const ProjectsSection = () => {
                             <div className="row justify-content-center">
                                 <div className="col-md-8">
                                     <div className="row mb-4">
-                                        <a href="/content-img/centrchpu/index.png" data-toggle="lightbox"
+                                        <a href="../../images/centrchpu/index.png" data-toggle="lightbox"
                                            data-gallery="example-gallery"
                                            className="col-sm-4">
-                                            {/*<img src="/content-img/centrchpu/index-small.png" className="img-fluid">*/}
+                                            <img src={firstImg} className="img-fluid"/>
                                         </a>
-                                        <a href="/content-img/centrchpu/katalog.png" data-toggle="lightbox"
+                                        <a href="../../images/centrchpu/katalog.png" data-toggle="lightbox"
                                            data-gallery="example-gallery"
                                            className="col-sm-4">
-                                            {/*<img src="/content-img/centrchpu/katalog-small.png" className="img-fluid">*/}
+                                            <img src={secImg} className="img-fluid"/>
                                         </a>
-                                        <a href="/content-img/centrchpu/services.png" data-toggle="lightbox"
+                                        <a href="../../images/centrchpu/services.png" data-toggle="lightbox"
                                            data-gallery="example-gallery"
                                            className="col-sm-4">
-                                            {/*<img src="/content-img/centrchpu/services-small.png" className="img-fluid">*/}
+                                            <img src={thirdImg} className="img-fluid"/>
                                         </a>
                                     </div>
                                     <div className="row mb-4">
-                                        <a href="/content-img/centrchpu/materials.png" data-toggle="lightbox"
+                                        <a href="../../images/centrchpu/materials.png" data-toggle="lightbox"
                                            data-gallery="example-gallery"
                                            className="col-sm-4">
-                                            {/*<img src="/content-img/centrchpu/materials-small.png" className="img-fluid">*/}
+                                            <img src={forthImg} className="img-fluid"/>
                                         </a>
-                                        <a href="/content-img/centrchpu/articles.png" data-toggle="lightbox"
+                                        <a href="../../images/centrchpu/articles.png" data-toggle="lightbox"
                                            data-gallery="example-gallery"
                                            className="col-sm-4">
-                                            {/*<img src="/content-img/centrchpu/articles-small.png" className="img-fluid">*/}
+                                            <img src={fifthImg} className="img-fluid"/>
                                         </a>
-                                        <a href="/content-img/centrchpu/contacts.png" data-toggle="lightbox" data-gallery="example-gallery" className="col-sm-4">
-                                            {/*<img src="/content-img/centrchpu/contacts-small.png" className="img-fluid">*/}
+                                        <a href="../../images/centrchpu/contacts.png" data-toggle="lightbox" data-gallery="example-gallery" className="col-sm-4">
+                                            <img src={sixthImg} className="img-fluid"/>
                                         </a>
                                     </div>
                                 </div>

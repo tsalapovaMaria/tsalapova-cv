@@ -1,7 +1,7 @@
 import React from "react";
+const mainImg = require('./../../images/IMG_1056.jpg');
 
 const Welcome = () => {
-    const mainImg = require('./../../images/IMG_1056.jpg');
     return (
         <section className="content-section welcome">
             <div className="container-xl">

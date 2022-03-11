@@ -1,4 +1,5 @@
 import React from "react";
+const img = require('./../../images/IMG_9412.jpg');
 
 const Contacts = () => {
     return (
@@ -8,7 +9,7 @@ const Contacts = () => {
                     <h2 id="contacts" className="article-title"><span>контакты</span></h2>
                     <div className="row">
                         <div className="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end">
-                            <img className="w-50" src="/content-img/IMG_9412.jpg"/>
+                            <img className="w-50" src={img} alt=""/>
                         </div>
                         <div
                             className="my-3 mt-lg-0 col-12 col-lg-6 d-flex align-items-lg-center justify-content-center justify-content-lg-start">

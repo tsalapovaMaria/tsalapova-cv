@@ -1,5 +1,12 @@
 import React from 'react';
 
+const firstImg = require('./../../images/nav-app.png');
+const secImg = require('./../../images/navApp/IMG_0168.JPG');
+const thirdImg = require('./../../images/navApp/IMG_0169.JPG');
+const forthImg = require('./../../images/navApp/IMG_0170.JPG');
+const fifthImg = require('./../../images/navApp/IMG_0171.JPG');
+const sixthImg = require('./../../images/navApp/IMG_0172.JPG');
+
 const Thesis = () => {
     return (
         <article className="article">
@@ -9,7 +16,7 @@ const Thesis = () => {
                     <div className="nav-app-description row">
                         <div className="col-12">
                             <div className="d-flex justify-content-center">
-                                <img src="/content-img/nav-app.png" alt="nav-app-img" className="ml-lg-2 mb-2 nav-app-img"/>
+                                <img src={firstImg} alt="nav-app-img" className="ml-lg-2 mb-2 nav-app-img"/>
                             </div>
                         </div>
 
@@ -25,21 +32,21 @@ const Thesis = () => {
                             <span className="sr-only">Previous</span>
                         </a>
                         <div className="carousel-inner">
-                            {/*<div className="carousel-item active">*/}
-                            {/*    <img src="/content-img/navApp/white/IMG_0168.JPG" className="d-block w-100" alt="">*/}
-                            {/*</div>*/}
-                            {/*<div className="carousel-item">*/}
-                            {/*    <img src="content-img/navApp/white/IMG_0169.JPG" className="d-block w-100" alt="">*/}
-                            {/*</div>*/}
-                            {/*<div className="carousel-item">*/}
-                            {/*    <img src="content-img/navApp/white/IMG_0170.JPG" className="d-block w-100" alt="">*/}
-                            {/*</div>*/}
-                            {/*<div className="carousel-item">*/}
-                            {/*    <img src="content-img/navApp/white/IMG_0171.JPG" className="d-block w-100" alt="">*/}
-                            {/*</div>*/}
-                            {/*<div className="carousel-item">*/}
-                            {/*    <img src="content-img/navApp/white/IMG_0172.JPG" className="d-block w-100" alt="">*/}
-                            {/*</div>*/}
+                            <div className="carousel-item active">
+                                <img src={secImg} className="d-block w-100" alt=""/>
+                            </div>
+                            <div className="carousel-item">
+                                <img src={thirdImg} className="d-block w-100" alt=""/>
+                            </div>
+                            <div className="carousel-item">
+                                <img src={forthImg} className="d-block w-100" alt=""/>
+                            </div>
+                            <div className="carousel-item">
+                                <img src={fifthImg} className="d-block w-100" alt=""/>
+                            </div>
+                            <div className="carousel-item">
+                                <img src={sixthImg} className="d-block w-100" alt=""/>
+                            </div>
                         </div>
                         <a className="carousel-control-next" role="button" data-slide="next">
                             <span className="carousel-control-next-icon" aria-hidden="true"/>

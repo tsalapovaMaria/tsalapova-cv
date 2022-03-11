@@ -7,6 +7,8 @@ import InAdditionSection from "./components/InAdditionSection/InAdditionSection"
 import Contacts from "./components/Contacts/Contacts";
 import SkillsSection from "./components/SkillsSection/SkillsSection";
 import Footer from './components/Footer/Footer';
+import ScriptsSection from './components/ScriptsSection/ScriptsSection';
+import ProjectsSection from "./components/ProjectsSection/ProjectsSection";
 
 const App = () => {
   return (
@@ -16,9 +18,11 @@ const App = () => {
       <Welcome/>
       <EducationSection/>
       <SkillsSection/>
+      <ProjectsSection/>
       <InAdditionSection/>
       <Contacts/>
       <Footer/>
+      <ScriptsSection/>
     </>
   );
 }
