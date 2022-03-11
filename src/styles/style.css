@@ -21,18 +21,16 @@ img {
   border: 5px solid rgb(163, 180, 171);
 }
 
-a {
-  color: #000;
-}
-
 a:not(.nav-link) {
   text-decoration: none;
 }
+
 a {
-  color: rgb(163, 180, 171);
+  color: #7E8E85;
 }
+
 a:hover {
-  color: rgb(96, 105, 100);
+  color: #606964;
 }
 
 .back-to-top-anchor {
@@ -183,9 +181,13 @@ a:hover {
 .article-text {
   text-align: justify;
   font-size: 1.5rem;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 0 10px;
 }
+
+.article-text:not(:last-of-type) {
+  margin-bottom: 1rem;
+}
+
 
 .content-img {
   width: 50%;
@@ -202,7 +204,7 @@ a:hover {
 /* SKILLS-CONTENT */
 
 .skills-list-title {
-  margin-bottom: 10px;
+  margin-bottom: 1.5rem;
 }
 
 .skills-content,
@@ -298,6 +300,7 @@ a:hover {
 
 /* FOOTER */
 .footer {
+  height: 100px;
   position: relative;
   background-color: #d0e1d0;
 }

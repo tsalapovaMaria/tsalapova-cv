@@ -4,7 +4,7 @@ const img = require('./../../images/IMG_9412.jpg');
 const Contacts = () => {
     return (
         <section className="content-section contacts mb-lg-5">
-            <div className="container-xl">
+            <div className="container">
                 <article className="article">
                     <h2 id="contacts" className="article-title"><span>контакты</span></h2>
                     <div className="row">

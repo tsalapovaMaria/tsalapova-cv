@@ -14,7 +14,7 @@ const Thesis = () => {
             <div className="row">
                 <div className="col-xl-6 col-12">
                     <div className="nav-app-description row">
-                        <div className="col-12">
+                        <div className="col-12 mb-4">
                             <div className="d-flex justify-content-center">
                                 <img src={firstImg} alt="nav-app-img" className="ml-lg-2 mb-2 nav-app-img"/>
                             </div>

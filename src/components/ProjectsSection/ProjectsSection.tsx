@@ -10,7 +10,7 @@ const sixthImg = require('./../../images/centrchpu/contacts-small.png');
 const ProjectsSection = () => {
     return (
         <section className="content-section">
-            <div className="container-xl">
+            <div className="container">
                 <article className="article">
                     <h2 id="portfolio" className="article-title col-12"><span>Projects</span></h2>
                     <div className="row">

@@ -8,7 +8,7 @@ const University = () => {
                     <div className="skills-content">
                         <div className="row align-items-center flex-column">
                             <div className="col-12 px-5">
-                                <h4 className="skills-list-title text-xl-left text-center">Чем я занималась в университете?</h4>
+                                <h4 className="skills-list-title text-xl-left text-center mb-4">Чем я занималась в университете?</h4>
                             </div>
                             <div className="col-12 mx-xl-auto px-5">
                                 <ul className="skills-list text-left">

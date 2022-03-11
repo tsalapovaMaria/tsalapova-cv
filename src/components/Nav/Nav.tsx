@@ -13,7 +13,7 @@ const Nav = () => {
                 <span className="line"/>
                 <span className="line"/>
             </div>
-            <nav className="container-xl">
+            <nav className="container">
                 <ul className="d-none d-md-flex nav-list row justify-content-between">
                     <NavItem text="education" anchor="education"/>
                     <NavItem text="skills" anchor="skills"/>

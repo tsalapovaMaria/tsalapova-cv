@@ -3,11 +3,11 @@ import React from "react";
 const Footer = () => {
     return (
         <footer className="footer">
-            <div className="container-xl d-flex align-items-center justify-content-center">
-                <div className="row">
+            <div className="row d-flex align-items-center h-100">
+                <div className="col-9">
                     <p className="licence">© 2021 Мария Цалапова</p>
                 </div>
-                <div className="row">
+                <div className="col-3 d-flex">
                     <div className="mail-container col-3">
                         <a href="mailto: mtsalapova@yandex.ru">
                             <svg enable-background="new 0 0 512 512" viewBox="0 0 512 512">

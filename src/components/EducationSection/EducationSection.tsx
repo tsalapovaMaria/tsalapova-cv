@@ -6,7 +6,7 @@ import University from "../University/University";
 const EducationSection = () => {
     return (
         <section className="content-section">
-            <div className="container-xl">
+            <div className="container">
                 <Education/>
                 <Thesis/>
                 <University/>

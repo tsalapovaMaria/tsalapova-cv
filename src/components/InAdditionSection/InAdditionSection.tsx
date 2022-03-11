@@ -22,11 +22,11 @@ const gqThirdImg = require('./../../images/IMG_1096.JPG');
 const InAdditionSection = () => {
     return (
         <section className="content-section">
-            <div className="container-xl">
+            <div className="container">
                 <article className="article">
                     <h2 id="in_addition" className="article-title"><span>В дополнение</span></h2>
                     <div className="in-addition-content">
-                        <div className="d-flex flex-column align-items-center justify-content-center">
+                        <div className="d-flex flex-column align-items-center justify-content-center mb-3">
                             <h3 className="about-exhibition mb-2">Videomaker</h3>
                             <p className="article-text"><a href="https://youtu.be/ILypffY_IFA">Съёмка и монтаж mood видео</a></p>
                         </div>
@@ -44,7 +44,7 @@ const InAdditionSection = () => {
                         </div>
                     </div>
                     <div className="in-addition-content">
-                        <div className="d-flex flex-column align-items-center justify-content-center">
+                        <div className="d-flex flex-column align-items-center justify-content-center mb-3">
                             <p className="article-text"><a href="https://youtu.be/hCmlxREurOI">Проект Abba Parody</a>
                             </p>
                         </div>
@@ -62,7 +62,7 @@ const InAdditionSection = () => {
                         </div>
                     </div>
                     <div className="in-addition-content d-flex flex-column align-items-center justify-content-center">
-                        <h3 className="about-exhibition mb-2">Оператор для бюджетного фильма "История трёх сестёр"</h3>
+                        <h3 className="about-exhibition mb-3">Оператор для бюджетного фильма "История трёх сестёр"</h3>
                         <div className="row">
                             <div className="col-12 col-md-6">
                                 <img src={cameraManFirstImg} className="w-100" alt=""/>
@@ -74,7 +74,7 @@ const InAdditionSection = () => {
                     </div>
                     <div className="in-addition-content d-flex flex-column align-items-center justify-content-center">
                         <h3 className="about-exhibition mb-2">Модель для фотовыставки "Супердискотека 2020"</h3>
-                        <p className="exhibition-author">(автор и фотограф - <a href="https://www.instagram.com/kirill_causelove/">Кирилл</a>)</p>
+                        <p className="exhibition-author mb-2">(автор и фотограф - <a href="https://www.instagram.com/kirill_causelove/">Кирилл</a>)</p>
                         <div className="row superdisco-container">
                             <div className="col-12 col-md-4 in-addition-content d-flex justify-content-center">
                                 <img src={modelFirstImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
@@ -96,7 +96,7 @@ const InAdditionSection = () => {
                         </div>
                     </div>
                     <div className="in-addition-content text-center">
-                        <h3>Ассистент стилиста GQ на видео съёмках для Tik Tok</h3>
+                        <h3 className="mb-3">Ассистент стилиста GQ на видео съёмках для Tik Tok</h3>
                         <div className="row">
                             <div className="col-12 col-md-4 in-addition-content d-flex justify-content-center">
                                 <img src={gqFirstImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
