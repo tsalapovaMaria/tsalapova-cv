@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f42aec31-e119-4b45-9677-6b6ea44a326c" name="Changes" comment="Translate to english language">
-      <change afterPath="$PROJECT_DIR$/allTypes.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/IMG_0240.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="f42aec31-e119-4b45-9677-6b6ea44a326c" name="Changes" comment="Build app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/InAdditionSection/InAdditionSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InAdditionSection/InAdditionSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Thesis/Thesis.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Thesis/Thesis.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Welcome/Welcome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Welcome/Welcome.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/1.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/DSC_1099.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/DSC_1844.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/IMG_0167.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/IMG_1055.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/frontend.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/main.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/videomaker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SkillsSection/SkillsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SkillsSection/SkillsSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/University/University.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/University/University.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +59,7 @@
       <workItem from="1647027209082" duration="8073000" />
       <workItem from="1647095098505" duration="3663000" />
       <workItem from="1647106087783" duration="4000" />
-      <workItem from="1647110115221" duration="1089000" />
+      <workItem from="1647110115221" duration="3286000" />
     </task>
     <task id="LOCAL-00001" summary="Require all images">
       <created>1647019554585</created>
@@ -103,7 +89,35 @@
       <option name="project" value="LOCAL" />
       <updated>1647033552657</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Build app and trying to find good carousel library">
+      <created>1647111307836</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1647111307836</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Create index.html file and redirect it to build/index.html">
+      <created>1647113793029</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1647113793029</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Don't ignore build folder">
+      <created>1647115084969</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1647115084969</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Build app">
+      <created>1647115100244</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1647115100244</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +140,10 @@
     <MESSAGE value="Edit styles" />
     <MESSAGE value="Ignore .idea folder" />
     <MESSAGE value="Translate to english language" />
-    <option name="LAST_COMMIT_MESSAGE" value="Translate to english language" />
+    <MESSAGE value="Build app and trying to find good carousel library" />
+    <MESSAGE value="Create index.html file and redirect it to build/index.html" />
+    <MESSAGE value="Don't ignore build folder" />
+    <MESSAGE value="Build app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Build app" />
   </component>
 </project>

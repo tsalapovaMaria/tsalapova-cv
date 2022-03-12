@@ -15,10 +15,10 @@ const SkillsSection = () => {
                                     </div>
                                     <div className="col-xl-12 col-md-6 col-12 mx-xl-auto px-xl-5 px-md-3 px-5">
                                         <ul className="skills-list text-left">
-                                            <li className="skills-item"><span>HTML, CSS, JavaScript, React</span></li>
+                                            <li className="skills-item"><span>HTML, CSS, JavaScript, TypeScript, React</span></li>
                                             <li className="skills-item"><span>Node.js, NextJS, Express</span></li>
                                             <li className="skills-item"><span>VS Code, PHP Storm</span></li>
-                                            <li className="skills-item"><span>Git, Figma, Jira</span></li>
+                                            <li className="skills-item"><span>Git, Jira</span></li>
                                             <li className="skills-item"><span>OWOX events creation</span></li>
                                             <li className="skills-item"><span>Grid and adaptive layout based on Figma layout</span></li>
                                         </ul>

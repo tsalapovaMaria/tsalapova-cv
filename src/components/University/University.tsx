@@ -13,13 +13,13 @@ const University = () => {
                             <div className="col-12 mx-xl-auto px-5">
                                 <ul className="skills-list text-left">
                                     <li className="skills-item"><span>Low poly <b>3D modules</b> creation</span></li>
-                                    <li className="skills-item"><span>Client <b>JavaScript</b> app creation to solve algorithmic tasks</span></li>
-                                    <li className="skills-item"><span>Game development in the <b>Unity 3D</b> (С# scripts)</span></li>
-                                    <li className="skills-item"><span>Window <b>C#</b> app creation, that perform logical operations <b>on fuzzy sets</b></span></li>
-                                    <li className="skills-item"><span><b>GUI</b> creation, used to edit images (brightness histogram creation, applying equalization, smoothing and filters)</span></li>
+                                    <li className="skills-item"><span>Client <b>JavaScript</b> app creation that solves algorithmic tasks</span></li>
+                                    <li className="skills-item"><span>Game development using <b>Unity 3D</b> (С# scripts)</span></li>
+                                    <li className="skills-item"><span>Window <b>C#</b> app creation that perform logical operations <b>on fuzzy sets</b></span></li>
+                                    <li className="skills-item"><span><b>GUI</b> creation used to edit images (brightness histogram creation, applying equalization, smoothing and filters)</span></li>
                                     <li className="skills-item"><span>Automated information and reference system based on <b>UML</b></span></li>
                                     <li className="skills-item"><span>Filming and voice-over of <b>video lessons</b></span></li>
-                                    <li className="skills-item"><span>Presentation on Open Day with <b>Master Class</b> about "Making 3D modules in the Blender 3D"</span></li>
+                                    <li className="skills-item"><span>Presentation on Open Day with <b>Master Class</b> about "Making 3D modules using Blender 3D"</span></li>
                                 </ul>
                             </div>
                         </div>
