@@ -5,6 +5,8 @@ const moodSecondImg = require('./../../images/screenshots-3.jpg');
 
 const abbaFirstImg = require('./../../images/DSC_1108.jpg');
 const abbaSecondImg = require('./../../images/DSC_1099_2.jpg');
+const abbaHoverFirstImg = require('./../../images/2CAB1F10-3555-4D33-A8A9-C47EADD46D0C.JPG');
+const abbaHoverSecondImg = require('./../../images/IMG_1099.JPG');
 
 const cameraManFirstImg = require('./../../images/IMG_1577.JPG');
 const cameraManSecondImg = require('./../../images/IMG_1578.JPG');
@@ -51,14 +53,36 @@ const InAdditionSection = () => {
                         <div className="row">
                             <div className="col-12 col-md-6 in-addition-content">
                                 <a href="https://youtu.be/hCmlxREurOI">
-                                    <img className="w-100" src={abbaFirstImg} alt=""/>
+                                    <img
+                                        onMouseOver={e => (e.currentTarget.src = abbaHoverFirstImg)}
+                                        onMouseOut={e => (e.currentTarget.src = abbaFirstImg)}
+                                        className="w-100"
+                                        src={abbaFirstImg}
+                                        alt=""
+                                    />
                                 </a>
                             </div>
                             <div className="col-12 col-md-6 in-addition-content">
                                 <a href="https://youtu.be/hCmlxREurOI">
-                                    <img className="w-100" src={abbaSecondImg} alt=""/>
+                                    <img
+                                        onMouseOver={e => (e.currentTarget.src = abbaHoverSecondImg)}
+                                        onMouseOut={e => (e.currentTarget.src = abbaSecondImg)}
+                                        className="w-100"
+                                        src={abbaSecondImg}
+                                        alt=""
+                                    />
                                 </a>
                             </div>
+                            {/*<div className="col-12 col-md-6 in-addition-content">*/}
+                            {/*    <a href="https://youtu.be/hCmlxREurOI">*/}
+                            {/*        <img className="w-100" src={abbaHoverFirstImg} alt=""/>*/}
+                            {/*    </a>*/}
+                            {/*</div>*/}
+                            {/*<div className="col-12 col-md-6 in-addition-content">*/}
+                            {/*    <a href="https://youtu.be/hCmlxREurOI">*/}
+                            {/*        <img className="w-100" src={abbaHoverSecondImg} alt=""/>*/}
+                            {/*    </a>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
                     <div className="in-addition-content d-flex flex-column align-items-center justify-content-center">
