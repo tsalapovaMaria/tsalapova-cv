@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f42aec31-e119-4b45-9677-6b6ea44a326c" name="Changes" comment="Edit content">
-      <change afterPath="$PROJECT_DIR$/project.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Links/Links.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Links/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/IMG_0232.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/IMG_0233.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/InAdditionSection/InAdditionSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InAdditionSection/InAdditionSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons/iconfinder_335_Telegram_4518725.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons/iconfinder_364_Vk_4518751.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons/iconfinder_Email_email_envelope_letter_mail_message_6590528.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/mail.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons/iconfinder_SocialMedia_Instagram-Outline_2959748.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/instagram.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="f42aec31-e119-4b45-9677-6b6ea44a326c" name="Changes" comment="Edit photos in &quot;In addition&quot; chapter and create Links component for Footer and Contacts" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +56,7 @@
       <workItem from="1647095098505" duration="3663000" />
       <workItem from="1647106087783" duration="4000" />
       <workItem from="1647110115221" duration="3590000" />
-      <workItem from="1647191380784" duration="3848000" />
+      <workItem from="1647191380784" duration="4562000" />
     </task>
     <task id="LOCAL-00001" summary="Require all images">
       <created>1647019554585</created>
@@ -136,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647115765849</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Edit photos in &quot;In addition&quot; chapter and create Links component for Footer and Contacts">
+      <created>1647196449200</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1647196449200</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +156,7 @@
     <MESSAGE value="Don't ignore build folder" />
     <MESSAGE value="Build app" />
     <MESSAGE value="Edit content" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit content" />
+    <MESSAGE value="Edit photos in &quot;In addition&quot; chapter and create Links component for Footer and Contacts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit photos in &quot;In addition&quot; chapter and create Links component for Footer and Contacts" />
   </component>
 </project>
