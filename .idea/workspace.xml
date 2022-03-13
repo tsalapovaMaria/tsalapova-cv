@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f42aec31-e119-4b45-9677-6b6ea44a326c" name="Changes" comment="Redirect index.html to https://tsalapovamaria.github.io/tsalapova-cv/build/index.html">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allTypes.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Thesis/Thesis.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Thesis/Thesis.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
+    <list default="true" id="f42aec31-e119-4b45-9677-6b6ea44a326c" name="Changes" comment="Rebuild app">
+      <change afterPath="$PROJECT_DIR$/build/static/css/main.a4f81975.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/css/main.a4f81975.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.60752412.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.60752412.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.60752412.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.25077359.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.25077359.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.1774a06c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.1774a06c.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.1774a06c.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +70,7 @@
       <workItem from="1647095098505" duration="3663000" />
       <workItem from="1647106087783" duration="4000" />
       <workItem from="1647110115221" duration="3590000" />
-      <workItem from="1647191380784" duration="5914000" />
+      <workItem from="1647191380784" duration="6243000" />
     </task>
     <task id="LOCAL-00001" summary="Require all images">
       <created>1647019554585</created>
@@ -150,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647198091615</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Set ghPages to devDependencies and set Swiper to Thesis">
+      <created>1647199383738</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1647199383738</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,8 +192,9 @@
     <MESSAGE value="Build app" />
     <MESSAGE value="Edit content" />
     <MESSAGE value="Edit photos in &quot;In addition&quot; chapter and create Links component for Footer and Contacts" />
-    <MESSAGE value="Rebuild app" />
     <MESSAGE value="Redirect index.html to https://tsalapovamaria.github.io/tsalapova-cv/build/index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redirect index.html to https://tsalapovamaria.github.io/tsalapova-cv/build/index.html" />
+    <MESSAGE value="Set ghPages to devDependencies and set Swiper to Thesis" />
+    <MESSAGE value="Rebuild app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rebuild app" />
   </component>
 </project>

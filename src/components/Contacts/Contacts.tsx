@@ -10,7 +10,7 @@ const Contacts = () => {
                     <h2 id="contacts" className="article-title"><span>Contacts</span></h2>
                     <div className="row">
                         <div className="col-12 col-lg-12 d-flex justify-content-center">
-                            <img className="w-25" src={img} alt=""/>
+                            <img className="w-50" src={img} alt=""/>
                         </div>
                         <div className="my-3 col-12 col-lg-12 d-flex align-items-lg-center justify-content-center">
                             <div className="row">
