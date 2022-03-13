@@ -10,6 +10,8 @@ const abbaHoverSecondImg = require('./../../images/IMG_1099.JPG');
 
 const cameraManFirstImg = require('./../../images/IMG_1577.JPG');
 const cameraManSecondImg = require('./../../images/IMG_1578.JPG');
+const cameraManHoverFirstImg = require('./../../images/IMG_0232.jpg');
+const cameraManHoverSecondImg = require('./../../images/IMG_0233.jpg');
 
 const modelFirstImg = require('./../../images/DSC_2007.jpg');
 const modelSecondImg = require('./../../images/DSC_2132.jpg');
@@ -73,26 +75,28 @@ const InAdditionSection = () => {
                                     />
                                 </a>
                             </div>
-                            {/*<div className="col-12 col-md-6 in-addition-content">*/}
-                            {/*    <a href="https://youtu.be/hCmlxREurOI">*/}
-                            {/*        <img className="w-100" src={abbaHoverFirstImg} alt=""/>*/}
-                            {/*    </a>*/}
-                            {/*</div>*/}
-                            {/*<div className="col-12 col-md-6 in-addition-content">*/}
-                            {/*    <a href="https://youtu.be/hCmlxREurOI">*/}
-                            {/*        <img className="w-100" src={abbaHoverSecondImg} alt=""/>*/}
-                            {/*    </a>*/}
-                            {/*</div>*/}
                         </div>
                     </div>
                     <div className="in-addition-content d-flex flex-column align-items-center justify-content-center">
                         <h3 className="about-exhibition mb-3">Cameraman of the "The story of three sisters" movie</h3>
                         <div className="row">
                             <div className="col-12 col-md-6">
-                                <img src={cameraManFirstImg} className="w-100" alt=""/>
+                                <img
+                                    onMouseOver={e => (e.currentTarget.src = cameraManHoverFirstImg)}
+                                    onMouseOut={e => (e.currentTarget.src = cameraManFirstImg)}
+                                    src={cameraManFirstImg}
+                                    className="w-100"
+                                    alt=""
+                                />
                             </div>
                             <div className="col-12 col-md-6">
-                                <img src={cameraManSecondImg} className="w-100" alt=""/>
+                                <img
+                                    onMouseOver={e => (e.currentTarget.src = cameraManHoverSecondImg)}
+                                    onMouseOut={e => (e.currentTarget.src = cameraManSecondImg)}
+                                    src={cameraManSecondImg}
+                                    className="w-100"
+                                    alt=""
+                                />
                             </div>
                         </div>
                     </div>

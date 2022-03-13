@@ -270,16 +270,19 @@ a:hover {
 /* CONTANTS */
 
 .email-link:hover,
-.vk-link:hover,
-.inst-link:hover,
-.telegram-link:hover {
+.inst-link:hover{
   fill: rgb(163, 180, 171);
 }
+.email-link{
+  width: 30px;
+}
+
+.inst-link {
+  width: 32px;
+}
+
 .email-link,
-.vk-link,
-.inst-link,
-.telegram-link {
-  width: 40px;
+.inst-link{
   margin: 0;
   fill: rgb(96, 105, 100);
 }
@@ -290,12 +293,23 @@ a:hover {
 .contacts-content a {
   text-decoration: none;
 }
-.email-link svg,
-.vk-link svg,
+
 .inst-link svg,
-.telegram-link svg {
-  width: 40px;
-  height: 40px;
+.email-link svg {
+  height: 35px;
+}
+
+.inst-link svg:hover > *,
+.email-link svg:hover > *{
+  fill: #000000;
+}
+
+.email-link svg {
+  width: 26px;
+}
+
+.inst-link svg {
+  width: 30px;
 }
 
 /* FOOTER */
