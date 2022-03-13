@@ -1,6 +1,8 @@
 import React from 'react';
-import {Carousel} from 'react-carousel-minimal';
-
+import { Navigation } from "swiper";
+import {Swiper, SwiperSlide} from 'swiper/react';
+import "swiper/css";
+import "swiper/css/navigation";
 
 const firstImg = require('./../../images/nav-app.png');
 
@@ -47,15 +49,13 @@ const Thesis = () => {
                     </div>
                 </div>
                 <div className="col-xl-6 col-12">
-                    <Carousel
-                        // time={10000}
-                        width={500}
-                        height={500}
-                        radius={30}
-                        dots={true}
-                        slideBackgroundColor="none"
-                        data={images}
-                    />
+                    <Swiper navigation modules={[Navigation]}>
+                        <SwiperSlide><img src={secImg} className="d-block w-100" alt=""/></SwiperSlide>
+                        <SwiperSlide><img src={thirdImg} className="d-block w-100" alt=""/></SwiperSlide>
+                        <SwiperSlide><img src={forthImg} className="d-block w-100" alt=""/></SwiperSlide>
+                        <SwiperSlide><img src={fifthImg} className="d-block w-100" alt=""/></SwiperSlide>
+                        <SwiperSlide><img src={sixthImg} className="d-block w-100" alt=""/></SwiperSlide>
+                    </Swiper>
                     {/*<Carousel>*/}
                     {/*    <img src={secImg} className="d-block w-100" alt=""/>*/}
                     {/*    <img src={secImg} className="d-block w-100" alt=""/>*/}
@@ -63,33 +63,6 @@ const Thesis = () => {
                     {/*    <img src={secImg} className="d-block w-100" alt=""/>*/}
                     {/*    <img src={secImg} className="d-block w-100" alt=""/>*/}
                     {/*</Carousel>*/}
-                    {/*<div id="carouselControlsApp" className="carousel slide d-flex justify-content-around" data-ride="carousel">*/}
-                    {/*    <a className="carousel-control-prev" href="#carouselControlsApp" role="button" data-slide="prev">*/}
-                    {/*        <span className="carousel-control-prev-icon" aria-hidden="true"/>*/}
-                    {/*        <span className="sr-only">Previous</span>*/}
-                    {/*    </a>*/}
-                    {/*    <div className="carousel-inner">*/}
-                    {/*        <div className="carousel-item active">*/}
-                    {/*            <img src={secImg} className="d-block w-100" alt=""/>*/}
-                    {/*        </div>*/}
-                    {/*        <div className="carousel-item">*/}
-                    {/*            <img src={thirdImg} className="d-block w-100" alt=""/>*/}
-                    {/*        </div>*/}
-                    {/*        <div className="carousel-item">*/}
-                    {/*            <img src={forthImg} className="d-block w-100" alt=""/>*/}
-                    {/*        </div>*/}
-                    {/*        <div className="carousel-item">*/}
-                    {/*            <img src={fifthImg} className="d-block w-100" alt=""/>*/}
-                    {/*        </div>*/}
-                    {/*        <div className="carousel-item">*/}
-                    {/*            <img src={sixthImg} className="d-block w-100" alt=""/>*/}
-                    {/*        </div>*/}
-                    {/*    </div>*/}
-                    {/*    <a className="carousel-control-next" role="button" data-slide="next">*/}
-                    {/*        <span className="carousel-control-next-icon" aria-hidden="true"/>*/}
-                    {/*        <span className="sr-only">Next</span>*/}
-                    {/*    </a>*/}
-                    {/*</div>*/}
                 </div>
             </div>
         </article>

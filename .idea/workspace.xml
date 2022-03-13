@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f42aec31-e119-4b45-9677-6b6ea44a326c" name="Changes" comment="Rebuild app">
+    <list default="true" id="f42aec31-e119-4b45-9677-6b6ea44a326c" name="Changes" comment="Redirect index.html to https://tsalapovamaria.github.io/tsalapova-cv/build/index.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allTypes.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Thesis/Thesis.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Thesis/Thesis.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +64,7 @@
       <workItem from="1647095098505" duration="3663000" />
       <workItem from="1647106087783" duration="4000" />
       <workItem from="1647110115221" duration="3590000" />
-      <workItem from="1647191380784" duration="4672000" />
+      <workItem from="1647191380784" duration="5914000" />
     </task>
     <task id="LOCAL-00001" summary="Require all images">
       <created>1647019554585</created>
@@ -138,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647198043138</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Redirect index.html to https://tsalapovamaria.github.io/tsalapova-cv/build/index.html">
+      <created>1647198091615</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1647198091615</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +180,7 @@
     <MESSAGE value="Edit content" />
     <MESSAGE value="Edit photos in &quot;In addition&quot; chapter and create Links component for Footer and Contacts" />
     <MESSAGE value="Rebuild app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rebuild app" />
+    <MESSAGE value="Redirect index.html to https://tsalapovamaria.github.io/tsalapova-cv/build/index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redirect index.html to https://tsalapovamaria.github.io/tsalapova-cv/build/index.html" />
   </component>
 </project>

@@ -21,6 +21,10 @@ img {
   border: 5px solid rgb(163, 180, 171);
 }
 
+.swiper-slide img {
+  border: none;
+}
+
 a:not(.nav-link) {
   text-decoration: none;
 }
@@ -340,4 +344,9 @@ a:hover {
   position: absolute;
   left: 100px;
   top: 10px;
+}
+
+.swiper .swiper-button-next,
+.swiper .swiper-button-prev {
+  color: #606964;
 }
