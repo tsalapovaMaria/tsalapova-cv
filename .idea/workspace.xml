@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f42aec31-e119-4b45-9677-6b6ea44a326c" name="Changes" comment="Edit photos in &quot;In addition&quot; chapter and create Links component for Footer and Contacts" />
+    <list default="true" id="f42aec31-e119-4b45-9677-6b6ea44a326c" name="Changes" comment="Rebuild app">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +59,7 @@
       <workItem from="1647095098505" duration="3663000" />
       <workItem from="1647106087783" duration="4000" />
       <workItem from="1647110115221" duration="3590000" />
-      <workItem from="1647191380784" duration="4562000" />
+      <workItem from="1647191380784" duration="4672000" />
     </task>
     <task id="LOCAL-00001" summary="Require all images">
       <created>1647019554585</created>
@@ -128,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647196449200</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Rebuild app">
+      <created>1647198043137</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1647198043138</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +167,7 @@
     <MESSAGE value="Build app" />
     <MESSAGE value="Edit content" />
     <MESSAGE value="Edit photos in &quot;In addition&quot; chapter and create Links component for Footer and Contacts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit photos in &quot;In addition&quot; chapter and create Links component for Footer and Contacts" />
+    <MESSAGE value="Rebuild app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rebuild app" />
   </component>
 </project>
