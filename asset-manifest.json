@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tsalapova-cv/static/css/main.a4f81975.css",
-    "main.js": "/tsalapova-cv/static/js/main.60752412.js",
+    "main.js": "/tsalapova-cv/static/js/main.2cdeaec7.js",
     "static/media/IMG_0487.JPG": "/tsalapova-cv/static/media/IMG_0487.26b63fe1932972f62943.JPG",
     "static/media/IMG_0509.JPG": "/tsalapova-cv/static/media/IMG_0509.fadc09831f2a38e29052.JPG",
     "static/media/IMG_1578.JPG": "/tsalapova-cv/static/media/IMG_1578.8e72bc54262b90ab3913.JPG",
@@ -37,10 +37,10 @@
     "static/media/nav-app.png": "/tsalapova-cv/static/media/nav-app.2b9890c772449fcfbcb1.png",
     "index.html": "/tsalapova-cv/index.html",
     "main.a4f81975.css.map": "/tsalapova-cv/static/css/main.a4f81975.css.map",
-    "main.60752412.js.map": "/tsalapova-cv/static/js/main.60752412.js.map"
+    "main.2cdeaec7.js.map": "/tsalapova-cv/static/js/main.2cdeaec7.js.map"
   },
   "entrypoints": [
     "static/css/main.a4f81975.css",
-    "static/js/main.60752412.js"
+    "static/js/main.2cdeaec7.js"
   ]
 }
