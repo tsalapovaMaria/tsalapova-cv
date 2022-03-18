@@ -12,7 +12,7 @@ const ProjectsSection = () => {
         <section className="content-section">
             <div className="container">
                 <article className="article">
-                    <h2 id="portfolio" className="article-title col-12"><span>Projects</span></h2>
+                    <h2 id="projects" className="article-title col-12"><span>Projects</span></h2>
                     <div className="row">
                         <div className="col-12 col-xl-6 ">
                             <div className="skills-content">
