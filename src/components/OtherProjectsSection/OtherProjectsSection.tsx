@@ -1,7 +1,9 @@
 import React from 'react';
 
-const moodFirstImg = require('./../../images/screenshots-2.jpg');
-const moodSecondImg = require('./../../images/screenshots-3.jpg');
+const moodFirstImg = require('./../../images/moodVideo/image_2022-03-19_14-23-10 (1).png');
+const moodFirstHoverImg = require('./../../images/moodVideo/image_2022-03-19_14-23-10.png');
+const moodSecondImg = require('./../../images/moodVideo/image_2022-03-19_14-23-18 (1).png');
+const moodSecondHoverImg = require('./../../images/moodVideo/image_2022-03-19_14-23-18.png');
 
 const abbaFirstImg = require('./../../images/DSC_1108.jpg');
 const abbaSecondImg = require('./../../images/DSC_1099_2.jpg');
@@ -37,12 +39,18 @@ const OtherProjectsSection = () => {
                         <div className="row">
                             <div className="col-12 col-md-6 in-addition-content">
                                 <a href="https://youtu.be/ILypffY_IFA" rel="noreferrer noopener" target="_blank">
-                                    <img className="w-100" src={moodFirstImg} alt=""/>
+                                    <img
+                                        onMouseOver={e => (e.currentTarget.src = moodFirstHoverImg)}
+                                        onMouseOut={e => (e.currentTarget.src = moodFirstImg)}
+                                        className="w-100" src={moodFirstImg} alt=""/>
                                 </a>
                             </div>
                             <div className="col-12 col-md-6 in-addition-content">
                                 <a href="https://youtu.be/ILypffY_IFA" rel="noreferrer noopener" target="_blank">
-                                    <img className="w-100" src={moodSecondImg} alt=""/>
+                                    <img
+                                        onMouseOver={e => (e.currentTarget.src = moodSecondHoverImg)}
+                                        onMouseOut={e => (e.currentTarget.src = moodSecondImg)}
+                                        className="w-100" src={moodSecondImg} alt=""/>
                                 </a>
                             </div>
                         </div>
@@ -105,31 +113,21 @@ const OtherProjectsSection = () => {
                         <p className="exhibition-author mb-2">(photograph and author is <a href="https://www.instagram.com/kirill_causelove/" rel="noreferrer noopener" target="_blank">Kirill</a>)</p>
                         <div className="row superdisco-container">
                             <div className="col-12 col-md-4 in-addition-content d-flex justify-content-center">
-                                <div>
-                                    <img src={modelFirstImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
-                                </div>
+                                <img src={modelFirstImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
                             </div>
                             <div className="col-12 col-md-4 in-addition-content d-flex justify-content-center">
-                                <div>
-                                    <img src={modelSecondImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
-                                </div>
+                                <img src={modelSecondImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
                             </div>
                             <div className="col-12 col-md-4 in-addition-content d-flex justify-content-center">
-                                <div>
-                                    <img src={modelThirdImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
-                                </div>
+                                <img src={modelThirdImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
                             </div>
                         </div>
                         <div className="row superdisco-container mt-lg-2">
                             <div className="col-12 col-md-6 in-addition-content d-flex justify-content-center">
-                                <div>
-                                    <img src={modelForthImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
-                                </div>
+                                <img src={modelForthImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
                             </div>
                             <div className="col-12 col-md-6 in-addition-content d-flex justify-content-center">
-                                <div>
-                                    <img src={modelFifthImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
-                                </div>
+                                <img src={modelFifthImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -137,19 +135,13 @@ const OtherProjectsSection = () => {
                         <h3 className="mb-3">GQ stylist assistant on the set of Tik Tok video</h3>
                         <div className="row">
                             <div className="col-12 col-md-4 in-addition-content d-flex justify-content-center">
-                                <div>
-                                    <img src={gqFirstImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
-                                </div>
+                                <img src={gqFirstImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
                             </div>
                             <div className="col-12 col-md-4 in-addition-content d-flex justify-content-center">
-                                <div>
-                                    <img src={gqSecondImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
-                                </div>
+                                <img src={gqSecondImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
                             </div>
                             <div className="col-12 col-md-4 in-addition-content d-flex justify-content-center">
-                                <div>
-                                    <img src={gqThirdImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
-                                </div>
+                                <img src={gqThirdImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
                             </div>
                         </div>
                     </div>
