@@ -1,6 +1,5 @@
 import React from "react";
-// const mainImg = require('./../../images/IMG_1056.jpg');
-const mainImg1 = require('./../../images/IMG_0240.JPG');
+const mainImg = require('./../../images/IMG_0240.JPG');
 
 const Welcome = () => {
     return (
@@ -9,7 +8,7 @@ const Welcome = () => {
                 <article className="article">
                     <div className="row">
                         <div className="col-12 col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end mb-3 mb-lg-0">
-                            <img className="welcome-img" src={mainImg1} alt="welcome-img"/>
+                            <img className="welcome-img" src={mainImg} alt="welcome-img"/>
                         </div>
                         <div className="col-12 col-lg-8 d-flex flex-column justify-content-center text-center text-lg-left">
                             <p className="article-text">I'm Maria (23 y.o.). Now living in Moscow, Russia.</p>
