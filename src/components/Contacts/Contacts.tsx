@@ -19,7 +19,7 @@ const Contacts = () => {
                                 </div>
                                 <div className="col-10 p-0">
                                     <p className="contacts-content text-left"><a href="mailto: mtsalapova@yandex.ru">tsalapovam@yandex.ru</a></p>
-                                    <p className="contacts-content text-left"><a href="http://instagram.com/tsalapova.m/" rel="noreferrer noopener" target="_blank">@tsalapova.m</a></p>
+                                    <p className="contacts-content text-left"><a href="http://instagram.com/tsalapova.m/" rel="noreferrer noopener" target="_blank">tsalapova.m</a></p>
                                 </div>
                             </div>
                         </div>
