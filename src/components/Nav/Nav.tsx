@@ -18,7 +18,7 @@ const Nav = () => {
                     <NavItem text="education" anchor="education"/>
                     <NavItem text="skills" anchor="skills"/>
                     <NavItem text="projects" anchor="projects"/>
-                    <NavItem text="in addition" anchor="in_addition"/>
+                    <NavItem text="other projects" anchor="other_projects"/>
                     <NavItem text="contacts" anchor="contacts"/>
                 </ul>
             </nav>

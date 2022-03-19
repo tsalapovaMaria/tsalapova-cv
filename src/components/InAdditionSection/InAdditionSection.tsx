@@ -28,7 +28,7 @@ const InAdditionSection = () => {
         <section className="content-section">
             <div className="container">
                 <article className="article">
-                    <h2 id="in_addition" className="article-title"><span>In addition</span></h2>
+                    <h2 id="other_projects" className="article-title"><span>Other passions and projects</span></h2>
                     <div className="in-addition-content">
                         <div className="d-flex flex-column align-items-center justify-content-center mb-3">
                             <h3 className="about-exhibition mb-2">Videomaker</h3>

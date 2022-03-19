@@ -14,8 +14,8 @@ const Welcome = () => {
                         <div className="col-12 col-lg-8 d-flex flex-column justify-content-center text-center text-lg-left">
                             <p className="article-text">I'm Maria (23 y.o.). Now living in Moscow, Russia.</p>
                             <p className="article-text">It's my CV-site. Here is information about my <a href="#education">education</a>, <a href="#skills">skills</a> and <a href="#contacts">contacts</a>.</p>
-                            <p className="article-text">I'm looking for a job now.</p>
-                            <p className="article-text">If you want to offer me a job, please text me to <a className="email-link" href="mailto: mtsalapova@yandex.ru">my mail</a>. For now let me introduce you to the site content.</p>
+                            <p className="article-text">I'm open to job opportunities.</p>
+                            <p className="article-text">If you think that I am a god fit to your team, please text me to <a className="email-link" href="mailto: mtsalapova@yandex.ru">my mail</a>. For now let me introduce you to the site content.</p>
                         </div>
                     </div>
                 </article>
