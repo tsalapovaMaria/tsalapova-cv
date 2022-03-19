@@ -13,7 +13,7 @@ const Links: React.FC<Props> = ({isVertical}) => {
                     <polyline style={{fill: "none", stroke: "#7E8E85", strokeWidth: 2, strokeLinejoin: "round", strokeMiterlimit: 10}} points="3,10 16,18 29,10 "/>
                 </svg>
             </a>
-            <a href="http://instagram.com/tsalapova.m/" className="inst-link position-relative" style={ isVertical ? {bottom: -6} : {}}>
+            <a href="http://instagram.com/tsalapova.m/" rel="noreferrer noopener" target="_blank" className="inst-link position-relative" style={ isVertical ? {bottom: -6} : {}}>
                 <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
                     <path style={{fill: "#7E8E85"}} d="M83,23a22,22,0,0,1,22,22V83a22,22,0,0,1-22,22H45A22,22,0,0,1,23,83V45A22,22,0,0,1,45,23H83m0-8H45A30.09,30.09,0,0,0,15,45V83a30.09,30.09,0,0,0,30,30H83a30.09,30.09,0,0,0,30-30V45A30.09,30.09,0,0,0,83,15Z"/>
                     <path style={{fill: "#7E8E85"}} d="M90.14,32a5.73,5.73,0,1,0,5.73,5.73A5.73,5.73,0,0,0,90.14,32Z"/>

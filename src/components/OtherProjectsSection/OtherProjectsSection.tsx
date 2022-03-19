@@ -23,7 +23,7 @@ const gqFirstImg = require('./../../images/IMG_0487.JPG');
 const gqSecondImg = require('./../../images/IMG_0509.JPG');
 const gqThirdImg = require('./../../images/IMG_1096.JPG');
 
-const InAdditionSection = () => {
+const OtherProjectsSection = () => {
     return (
         <section className="content-section">
             <div className="container">
@@ -32,16 +32,16 @@ const InAdditionSection = () => {
                     <div className="in-addition-content">
                         <div className="d-flex flex-column align-items-center justify-content-center mb-3">
                             <h3 className="about-exhibition mb-2">Videomaker</h3>
-                            <p className="article-text"><a href="https://youtu.be/ILypffY_IFA">Film and edit mood video</a></p>
+                            <p className="article-text"><a href="https://youtu.be/ILypffY_IFA" rel="noreferrer noopener" target="_blank">Film and edit mood video</a></p>
                         </div>
                         <div className="row">
                             <div className="col-12 col-md-6 in-addition-content">
-                                <a href="https://youtu.be/ILypffY_IFA">
+                                <a href="https://youtu.be/ILypffY_IFA" rel="noreferrer noopener" target="_blank">
                                     <img className="w-100" src={moodFirstImg} alt=""/>
                                 </a>
                             </div>
                             <div className="col-12 col-md-6 in-addition-content">
-                                <a href="https://youtu.be/ILypffY_IFA">
+                                <a href="https://youtu.be/ILypffY_IFA" rel="noreferrer noopener" target="_blank">
                                     <img className="w-100" src={moodSecondImg} alt=""/>
                                 </a>
                             </div>
@@ -49,12 +49,12 @@ const InAdditionSection = () => {
                     </div>
                     <div className="in-addition-content">
                         <div className="d-flex flex-column align-items-center justify-content-center mb-3">
-                            <p className="article-text"><a href="https://youtu.be/hCmlxREurOI">Abba Parody project</a>
+                            <p className="article-text"><a href="https://youtu.be/hCmlxREurOI" rel="noreferrer noopener" target="_blank">Abba Parody project</a>
                             </p>
                         </div>
                         <div className="row">
                             <div className="col-12 col-md-6 in-addition-content">
-                                <a href="https://youtu.be/hCmlxREurOI">
+                                <a href="https://youtu.be/hCmlxREurOI" rel="noreferrer noopener" target="_blank">
                                     <img
                                         onMouseOver={e => (e.currentTarget.src = abbaHoverFirstImg)}
                                         onMouseOut={e => (e.currentTarget.src = abbaFirstImg)}
@@ -65,7 +65,7 @@ const InAdditionSection = () => {
                                 </a>
                             </div>
                             <div className="col-12 col-md-6 in-addition-content">
-                                <a href="https://youtu.be/hCmlxREurOI">
+                                <a href="https://youtu.be/hCmlxREurOI" rel="noreferrer noopener" target="_blank">
                                     <img
                                         onMouseOver={e => (e.currentTarget.src = abbaHoverSecondImg)}
                                         onMouseOut={e => (e.currentTarget.src = abbaSecondImg)}
@@ -102,7 +102,7 @@ const InAdditionSection = () => {
                     </div>
                     <div className="in-addition-content d-flex flex-column align-items-center justify-content-center">
                         <h3 className="about-exhibition mb-2">Model for the photo exhibition called "Super disco 2020"</h3>
-                        <p className="exhibition-author mb-2">(photograph and author is <a href="https://www.instagram.com/kirill_causelove/">Kirill</a>)</p>
+                        <p className="exhibition-author mb-2">(photograph and author is <a href="https://www.instagram.com/kirill_causelove/" rel="noreferrer noopener" target="_blank">Kirill</a>)</p>
                         <div className="row superdisco-container">
                             <div className="col-12 col-md-4 in-addition-content d-flex justify-content-center">
                                 <img src={modelFirstImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
@@ -143,4 +143,4 @@ const InAdditionSection = () => {
     )
 }
 
-export default InAdditionSection
+export default OtherProjectsSection
