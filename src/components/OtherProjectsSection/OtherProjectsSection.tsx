@@ -105,21 +105,31 @@ const OtherProjectsSection = () => {
                         <p className="exhibition-author mb-2">(photograph and author is <a href="https://www.instagram.com/kirill_causelove/" rel="noreferrer noopener" target="_blank">Kirill</a>)</p>
                         <div className="row superdisco-container">
                             <div className="col-12 col-md-4 in-addition-content d-flex justify-content-center">
-                                <img src={modelFirstImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
+                                <div>
+                                    <img src={modelFirstImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
+                                </div>
                             </div>
                             <div className="col-12 col-md-4 in-addition-content d-flex justify-content-center">
-                                <img src={modelSecondImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
+                                <div>
+                                    <img src={modelSecondImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
+                                </div>
                             </div>
                             <div className="col-12 col-md-4 in-addition-content d-flex justify-content-center">
-                                <img src={modelThirdImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
+                                <div>
+                                    <img src={modelThirdImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
+                                </div>
                             </div>
                         </div>
                         <div className="row superdisco-container mt-lg-2">
                             <div className="col-12 col-md-6 in-addition-content d-flex justify-content-center">
-                                <img src={modelForthImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
+                                <div>
+                                    <img src={modelForthImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
+                                </div>
                             </div>
                             <div className="col-12 col-md-6 in-addition-content d-flex justify-content-center">
-                                <img src={modelFifthImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
+                                <div>
+                                    <img src={modelFifthImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -127,13 +137,19 @@ const OtherProjectsSection = () => {
                         <h3 className="mb-3">GQ stylist assistant on the set of Tik Tok video</h3>
                         <div className="row">
                             <div className="col-12 col-md-4 in-addition-content d-flex justify-content-center">
-                                <img src={gqFirstImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
+                                <div>
+                                    <img src={gqFirstImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
+                                </div>
                             </div>
                             <div className="col-12 col-md-4 in-addition-content d-flex justify-content-center">
-                                <img src={gqSecondImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
+                                <div>
+                                    <img src={gqSecondImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
+                                </div>
                             </div>
                             <div className="col-12 col-md-4 in-addition-content d-flex justify-content-center">
-                                <img src={gqThirdImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
+                                <div>
+                                    <img src={gqThirdImg} className="w-100 in-addition-img m-2 m-lg-0" alt=""/>
+                                </div>
                             </div>
                         </div>
                     </div>

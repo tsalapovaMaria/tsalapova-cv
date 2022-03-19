@@ -218,6 +218,20 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.in-addition-content div {
+  overflow: hidden;
+}
+
+.in-addition-img {
+  transition: all .1s ease-in-out;
+}
+
+.in-addition-img:hover {
+  transform: scale(1.05);
+  transition: all .1s ease-in-out;
+  border: 5px solid rgb(163, 180, 171);
+}
+
 .skills-list-title {
   font-size: 1.75rem;
   text-transform: uppercase;
