@@ -12,24 +12,6 @@ const forthImg = require('./../../images/navApp/IMG_1102.JPG');
 const fifthImg = require('./../../images/navApp/IMG_1103.JPG');
 const sixthImg = require('./../../images/navApp/IMG_1104.JPG');
 
-const images = [
-    {
-        image: secImg,
-    },
-    {
-        image: thirdImg,
-    },
-    {
-        image: forthImg,
-    },
-    {
-        image: fifthImg,
-    },
-    {
-        image: sixthImg,
-    },
-];
-
 const Thesis = () => {
     return (
         <article className="article">
@@ -42,9 +24,14 @@ const Thesis = () => {
                                 <img src={firstImg} alt="nav-app-img" className="ml-lg-2 mb-2 nav-app-img"/>
                             </div>
                         </div>
-
                         <div className="col-12">
                             <p className="article-text">Development of <b>navigation AR-app</b> for the Moscow Polytechnic University. The app is not required the use of mobile Internet and GPS - it's operated using AR technology.</p>
+                        </div>
+                        <div className="col-12 mt-2 mt-lg-4">
+                            <p className="article-text"><b>Language:</b> C#</p>
+                        </div>
+                        <div className="col-12">
+                            <p className="article-text"><b>Environment:</b> Unity 3D, Blender 3D</p>
                         </div>
                     </div>
                 </div>
@@ -56,13 +43,6 @@ const Thesis = () => {
                         <SwiperSlide><img src={fifthImg} className="d-block w-100" alt=""/></SwiperSlide>
                         <SwiperSlide><img src={sixthImg} className="d-block w-100" alt=""/></SwiperSlide>
                     </Swiper>
-                    {/*<Carousel>*/}
-                    {/*    <img src={secImg} className="d-block w-100" alt=""/>*/}
-                    {/*    <img src={secImg} className="d-block w-100" alt=""/>*/}
-                    {/*    <img src={secImg} className="d-block w-100" alt=""/>*/}
-                    {/*    <img src={secImg} className="d-block w-100" alt=""/>*/}
-                    {/*    <img src={secImg} className="d-block w-100" alt=""/>*/}
-                    {/*</Carousel>*/}
                 </div>
             </div>
         </article>

@@ -22,9 +22,9 @@ const ProjectsSection = () => {
                                     </div>
                                     <div className="col-xl-12 col-md-6 col-12 mx-xl-auto px-xl-5 px-md-3 px-5">
                                         <ul className="skills-list text-left">
+                                            <li className="skills-item"><span><a href="https://tsalapovamaria.github.io/new-shares-app/" rel="noreferrer noopener" target="_blank">Shares app</a> development based on Figma layout (on Russian)</span></li>
                                             <li className="skills-item"><span>Site development <a href="http://centrchpu.ru/" rel="noreferrer noopener" target="_blank">CNC center</a> (it's currently unavailable)</span></li>
                                             <li className="skills-item"><span><a href="http://tsalapova.ru/" rel="noreferrer noopener" target="_blank">CV-site</a> creation :)</span></li>
-                                            <li className="skills-item"><span><a href="https://tsalapovamaria.github.io/new-shares-app/" rel="noreferrer noopener" target="_blank">Shares app</a> development based on Figma layout (on Russian)</span></li>
                                         </ul>
                                     </div>
                                 </div>
